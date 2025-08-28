@@ -39,13 +39,6 @@ edge2pdf --folder "Work Bookmarks" --output work_sites.pdf
 # Using short options
 edge2pdf -f "Research" -o research.pdf
 
-# Get help
-edge2pdf --help
-
-# Python API
-from src.favorites_parser import EdgeFavoritesParser
-from src.pdf_converter import PDFConverter
-
 # Parse bookmarks
 parser = EdgeFavoritesParser()
 urls = parser.get_urls_from_folder("My Folder")
