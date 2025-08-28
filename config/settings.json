@@ -1,0 +1,22 @@
+{
+  "favorites_folder": "",
+  "output_path": "output/combined.pdf",
+  "parallel_downloads": 1,
+  "timeout_seconds": 30,
+  "page_load_delay": 2,
+  "headless": true,
+  "add_bookmarks": true,
+  "pdf_options": {
+    "format": "A4",
+    "landscape": false,
+    "margin": {
+      "top": "20px",
+      "right": "20px",
+      "bottom": "20px",
+      "left": "20px"
+    },
+    "displayHeaderFooter": true,
+    "printBackground": true,
+    "scale": 1.0
+  }
+}
