@@ -21,7 +21,6 @@ Convert Microsoft Edge favorites/bookmarks from a specific folder to individual 
 
 ### Quick Install
 
-```bash
 # Clone the repository
 git clone https://github.com/anit-z/edge-favorites-to-pdf.git
 cd edge-favorites-to-pdf
